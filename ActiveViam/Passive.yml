@@ -122,6 +122,7 @@ tokens:
   - shone
   - shorn
   - shot
+  - shown
   - shrunk
   - shut
   - slain
@@ -181,9 +182,3 @@ tokens:
   - woven
   - written
   - wrung
-exceptions:
-  - opened
-  - displayed
-  - shown
-  - queried
-
