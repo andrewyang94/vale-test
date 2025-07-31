@@ -1,0 +1,6 @@
+extends: existence
+message: "Spell out numbers below 10 as words."
+level: warning
+tokens:
+  - '\b[0-9]\b(?!\.)'
+scope: text

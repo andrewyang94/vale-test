@@ -1,0 +1,6 @@
+extends: existence
+message: "Consider splitting this long sentence."
+level: warning
+scope: sentence
+tokens:
+  - '\b(?:\S+\s+){24,}\S+'

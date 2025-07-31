@@ -1,0 +1,6 @@
+extends: existence
+message: "Avoid using gerunds (words ending in -ing) in headings. Consider using a noun or imperative verb instead."
+level: warning
+scope: heading
+tokens:
+  - '\b\w+ing\b'

@@ -1,0 +1,73 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+link: "https://developers.google.com/style/word-list"
+level: warning
+ignorecase: false
+action:
+  name: replace
+swap:
+  "(?:API Console|dev|developer) key": API key
+  "(?:dev|developer|APIs) console": API console
+  "(?:e-mail|Email|E-mail)": email
+  "(?:file ?path|path ?name)": path
+  "(?:kill|terminate|abort)": stop|exit|cancel|end
+  "(?:OAuth ?2|Oauth)": OAuth 2.0
+  "(?:ok|Okay)": OK|okay
+  "(?:WiFi|wifi)": Wi-Fi
+  '[\.]+apk': APK
+  '3\-D': 3D
+  "un(?:check|select)": clear
+  above: preceding
+  account name: username
+  admin: administrator
+  Ajax: AJAX
+  a\.k\.a|aka: or|also known as
+  approx\.: approximately
+  autoupdate: automatically update
+  chapter: documents|pages|sections
+  check box: checkbox
+  CLI: command-line tool
+  click on: click
+  data are: data is
+  disabled?: turn off|off
+  extendable: extensible
+  fewer data: less data
+  file name: filename
+  firewalls: firewall rules
+  functionality: capability|feature
+  grayed-out: unavailable
+  HTTPs: HTTPS
+  "[Ii]n order to": to
+  ingest: import|load
+  k8s: Kubernetes
+  long press: touch & hold
+  network IP address: internal IP address
+  open-source: open source
+  regex: regular expression
+  SHA1: SHA-1|HAS-SHA1
+  sign into: sign in to
+  sign-?on: single sign-on
+  stylesheet: style sheet
+  synch: sync
+  tablename: table name
+  "[Uu]rl": URL
+  vs\.: versus
+  World Wide Web: web
+  "[Ii]nside of": inside
+  "[Bb]eside of": beside
+  "(?:PnL|PandL)": P&L
+  "(?:SpringBean|Spring bean)": Spring Bean
+  "(?:SpringBoot|Spring boot)": Spring Boot
+  docker: Docker
+  "[iI]d": ID
+  InMemory: in-memory
+  maven: Maven
+  plug-in: plugin
+  postprocessor: post-processor
+  spring: Spring
+  use-case: use case
+  (?:at startup|start-up): on startup
+  Sensi cube: Sensitivity cube
+  day to day: day-to-day
+  comma separated: comma-separated
+  data store: datastore

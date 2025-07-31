@@ -1,0 +1,8 @@
+extends: existence
+message: "Use the title of the referenced page as link text."
+level: warning
+scope: text
+tokens:
+  - '\[(?:this|this page|this link|here|click here|read more|more|link|see here|check this|view this)\]\('
+  - '\[(?:This|This page|This link|Here|Click here|Read more|More|Link|See here|Check this|View this)\]\('
+  - '\[(?:THIS|THIS PAGE|THIS LINK|HERE|CLICK HERE|READ MORE|MORE|LINK|SEE HERE|CHECK THIS|VIEW THIS)\]\('
